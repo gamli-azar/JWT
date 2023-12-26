@@ -45,30 +45,3 @@ function ensurToken(req, res, next) {
 app.listen(3000)
 
 
-
-// לטפל בזה מחר הלמעלה עובד זה הפרוקט  של האנגלי הזה
-
-
-// const express = require('express');
-// const app = express()
-// const router = express.Router();
-// const jwt = require('./JWT/token');
-
-// router.post('/login', (req, res) => {
-//   // ...
-//   const token = jwt.createToken({ user: req.user });
-//   // ...
-// });
-
-// router.get('/protected', (req, res) => {
-    
-//   // ...
-//   jwt.verify(req.headers['Authorization'], jwt.secretKey, (err, decoded) => {
-//     if (err) {
-//       return res.sendStatus(403);
-//     }
-//     // ...
-//   });
-// });
-
-// app.listen(3000)
